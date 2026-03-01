@@ -1,0 +1,8 @@
+print('Monte um triângulo!')
+n1 = int(input('Primeiro segmento: '))
+n2 = int(input('Segundo segmento: '))
+n3 = int(input('Terceiro segmento: '))
+if n1 + n2 < n3 or n2 + n3 < n1 or n3 + n1 < n2: print('Seu triângulo não pode existir!')
+elif n1 == n2 == n3: print('Seu triângulo é equilátero')
+elif n1 == n2 or n2 == n3 or n3 == n1: print('Seu triângulo é isóceles')
+else: print('Seu triângulo é escaleno')
